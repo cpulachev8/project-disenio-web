@@ -3,5 +3,5 @@
 ?>
 
 <script>
-    window.location = "index.html";
+    window.location = "/pages/semana10.html";
 </script>
