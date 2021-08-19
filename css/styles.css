@@ -1,0 +1,55 @@
+|body {
+    background-color: #7fa5cf5e;
+    /* background: linear-gradient(120deg, #d64d0eea, #7fa5cf5e); */
+    color: #d64d0eea;
+}
+
+p {
+    color: #360681;
+    text-align: justify;
+}
+
+#texto-prueba-2 img {
+    vertical-align: top;
+}
+
+
+/*--------------------- semana 4 -------------------- */
+
+body {
+    margin: 0 auto;
+    background-color: #f7f2ab;
+}
+
+.container {
+    float: left;
+    background-color: #f7f2ab;
+}
+
+.container-menu {
+    width: 15%;
+}
+
+.container-menu ul {
+    list-style: square;
+}
+
+.container-menu ul li {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container-main {
+    width: 60%;
+}
+
+.container-image {
+    width: 24%;
+    float: right;
+}
+
+.container-image img {
+    width: 100%;
+    vertical-align: middle;
+    margin-top: 50px;
+}

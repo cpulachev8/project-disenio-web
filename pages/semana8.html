@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/scripts.js"></script>
+    <title>Semana 8</title>
+</head>
+
+<body>
+    <h1>Elementos Multimedia</h1>
+    <!-- audio -->
+    <!-- extensiones soportadas: mp3, ogg, wav, aac, opus -->
+    <!-- <audio src="/audio/alexander-nakandra.mp3#t=120" autoplay controls></audio> -->
+    <audio id="miaudio" src="/audio/alexander-nakandra.mp3#t=260" controls loop></audio>
+    <br>
+    <button onclick="reproducir();">Play</button>
+    <button onclick="pausar();">Pausa</button>
+    <button onclick="detener();">Stop</button>
+    <button onclick="pausarDetener()">Play | Pause</button>
+    <!-- forma antigua -->
+    <!-- <audio controls autoplay> -->
+    <!-- <audio controls>
+        <source src="/audio/alexander-nakandra.mp3" type="audio/mpeg">
+        <source src="/audio/alexander-nakandra.ogg" type="audio/ogg">
+        <source src="/audio/alexander-nakandra.wav" type="audio/wav">
+    </audio> -->
+    <!-- video -->
+    <!-- extensiones soportadas: mp4, webm, ogg -->
+    <!-- <video src="/video/video.mp4" controls autoplay poster="/images/image-mov.gif" width="500px" height="400px"> -->
+    <!-- <video src="/video/video.mp4#t=10,30" autoplay controls poster="/images/image-mov.gif" width="500px" height="400px"> -->
+    <br>
+    <video src="/video/video.mp4" controls poster="/images/zegel-ipae.jpg" width="500px" height="400px">
+    </video>
+
+    <!--  <video controls>
+        <source src="/video/video.mp4" type="video/mp4">
+        <source src="/video/video.webm" type="video/webm">
+        <source src="/video/video.ogg" type="video/ogg">
+    </video> -->
+
+    <!-- imagen en movimiento -->
+    <!-- <img src="/images/image-mov.gif" alt="Imagen en movimiento"> -->
+</body>
+
+</html>

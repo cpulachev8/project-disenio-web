@@ -1,0 +1,46 @@
+/* Para acceder a un elemento mediante el valor de clase se accede con el punto (.)
+Para acceder a un elemento mediante el valor de id se accede con el numeral (#) */
+
+body {
+    background-color: #ffff00;
+}
+
+div {
+    width: 20%;
+}
+
+.contenido {
+    float: left;
+}
+
+.contenido-menu {
+    width: 15%;
+}
+
+.contenido-texto {
+    width: 60%;
+}
+
+.contenido-texto h1,
+.contenido-texto p {
+    color: #e6347e;
+}
+
+#parrafo-1 {
+    color: blue;
+}
+
+#parrafo-2 {
+    color: green;
+}
+
+.contenido-imagen {
+    width: 24%;
+    float: right;
+    text-align: right;
+    padding-top: 30px;
+}
+
+ul {
+    list-style: circle;
+}

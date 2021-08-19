@@ -1,0 +1,59 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+}
+
+.menu li {
+    float: left;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 25px;
+    width: 250px;
+    border-right: 2px solid white;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.li-submenu:hover {
+    padding-bottom: 0;
+}
+
+.menu li:hover {
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.sub-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin-top: 12px;
+    margin-left: -25px;
+    text-align: left;
+}
+
+.sub-menu li {
+    clear: left;
+}
+
+.sub-menu li:hover {
+    background-color: black;
+    font-weight: bold;
+}
+
+ol {
+    margin-top: 50px;
+    clear: left;
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+}
